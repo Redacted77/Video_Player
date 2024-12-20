@@ -20,8 +20,8 @@ class VideoPlayer(QThread):
     # run is the first to start when .start() is used
     def run(self):
         self.video = self.instance.media_new(self.video_path)
-        self.video.add_option("avcodec-hw=dxva2")
-        self.video.add_option("avcodec-hw=nvdec")
+        #self.video.add_option("avcodec-hw=dxva2")
+        #self.video.add_option("avcodec-hw=nvdec")
         self.player.set_media(self.video)
         self.player.play()
         time.sleep(1)
