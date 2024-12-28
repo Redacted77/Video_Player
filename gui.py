@@ -165,6 +165,7 @@ class MainWindow(QMainWindow):
             self.volume_slider.setEnabled(True)
             self.play_button.setEnabled(True)
             self.video_worker.seek_length.connect(self.seek_config)
+            self.timer_set()
             self.video_worker.video_finished.connect(self.video_ended)
             self.subtitle_flage = False
             self.subtitle.clear()
