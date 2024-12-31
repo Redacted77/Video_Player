@@ -12,6 +12,10 @@ A video player that uses **PySide6** for the GUI and **python-vlc** for video pl
 
 the exe application is in **dist**
 
+![Example 1](<Example/Screenshot%20(70).png>)
+
+![Example 2](<Example/Screenshot%20(71).png>)
+
 ---
 
 ## main.py
